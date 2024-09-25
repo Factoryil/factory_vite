@@ -5,13 +5,13 @@ import Portafolio from '../components/common/Portafolio/Portafolio';
 import NuestrosClientes from '../components/unique/NuestrosClientes/NuestrosClientes';
 import SectionV2 from '../components/common/SectionV2/SectionV2';
 import ServiciosGenerales from '../components/common/ServiciosGenerales/ServiciosGenerales';
-import CarruselInicio from '../components/unique/carrusel/CarruselInicio';
+import Carrusel from '../components/unique/carrusel/Carrusel';
 import InicioData from '../data/InicioData';
 
 const Inicio = () => {
   return (
     <>
-      <CarruselInicio />
+      <Carrusel slidesData={InicioData.slidesData} />
 
       <SectionV1
         titulo={InicioData.acercaDeNosotros.titulo}
