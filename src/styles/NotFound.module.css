@@ -1,0 +1,36 @@
+/* src/pages/NotFound.module.css */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Altura completa de la vista */
+    color: #721c24; /* Color del texto */
+    text-align: center;
+    font-family: Arial, sans-serif; /* Fuente por defecto */
+  }
+  
+  .container h1 {
+    font-size: 48px; /* Tamaño del encabezado */
+    margin-bottom: 20px; /* Margen inferior */
+  }
+  
+  .container p {
+    font-size: 24px; /* Tamaño del párrafo */
+    margin-bottom: 30px; /* Margen inferior */
+    padding: 0px 10px;
+  }
+  
+  .container a {
+    text-decoration: none; /* Sin subrayado */
+    color: #ffffff; /* Color del texto del enlace */
+    background-color: #f49d15; /* Fondo del enlace */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave */
+  }
+  
+  /* .container a:hover {
+    background-color: #ffba27; 
+  }
+   */

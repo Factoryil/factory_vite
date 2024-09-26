@@ -206,20 +206,27 @@
     margin-right: 10px;
 
   }
-  
+  .contenedorUlForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: max-content;
+  }
+
   .formLink {
-    background-color: #007bff; 
+    background-color: #00235a; 
     text-decoration: none; 
     font-weight: bold; 
     display: flex;
-    padding: 10px;
     color: #fff;
     border-radius: 3px;
+    justify-content: center;
+    padding: 10px 15px;
   }
   
-  .formLink:hover {
+  /* .formLink:hover {
     color: #67bcf5; 
-  }
+  } */
   
 @media (min-width: 1076px) {
     .contactModule {

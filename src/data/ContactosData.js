@@ -37,8 +37,9 @@ const ContactosData = {
     
   ],
   googleFormLinks:[
-    { title: "Formulario 1", url: "https://forms.gle/tu_enlace_a_formulario_1" },
-    { title: "Formulario 2", url: "https://forms.gle/tu_enlace_a_formulario_2" }
+    { title: "PROVEEDORES", url: "https://docs.google.com/forms/d/e/1FAIpQLSfwU__Xr1zjMeo0VtzLy8FByZNZq9YLyFWDS8FkHW52oO6TDQ/viewform?usp=sf_link" },
+    { title: "REGISTRO DE VEHICULOS ", url: "https://docs.google.com/forms/d/e/1FAIpQLSfRiKBfVoaXI7oi3TLLHFh_f1aaGeYgySAkJu2QP_TNlM6CeQ/viewform?usp=sf_link" },
+    { title: "Cotización de Servicios/Productos ", url: "https://docs.google.com/forms/d/e/1FAIpQLSde0vSHcF9fMubLZVavYYbQF50p5fcNGKw_B0jZ7TWiOHP-ZQ/viewform?usp=sf_link" },
   ]
 };
 

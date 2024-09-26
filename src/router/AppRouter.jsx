@@ -18,6 +18,7 @@ import Transportes from '../pages/Transportes';
 import TransportesCarga from '../pages/TransportesCarga';
 import TransportesEspecial from '../pages/TransportesEspecial';
 import TransporteHidrocarburos from '../pages/TransporteHidrocarburos';
+import NotFound from '../pages/NotFound';
 
 function AppRouter() {
   return (
@@ -42,6 +43,7 @@ function AppRouter() {
           <Route path="/transportes/carga" element={<TransportesCarga />} />
           <Route path="/transportes/especial" element={<TransportesEspecial />} />
           <Route path="/transportes/hidrocarburos" element={<TransporteHidrocarburos />} />
+          <Route path="*" element={<NotFound />} /> {/* Ruta para la página no encontrada */}
         </Routes>
       </LayoutCliente>
     </Router>

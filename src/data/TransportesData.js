@@ -1,3 +1,7 @@
+import deliveryTruckImg from '../assets/images/servicios/delivery-truck_516419.png';
+import favouriteImg from '../assets/images/servicios/favourite_2156164.png';
+import tankTruckImg from '../assets/images/servicios/tank-truck_1850928.png';
+
 
 const TransportesData = {
   acercaDeNosotros: {
@@ -8,9 +12,9 @@ const TransportesData = {
   servicios: {
     titulo: "Nuestros servicios de ingeniería",
     servicios: [
-      { id: 10, title: 'Transporte de Carga', imgSrc: '/img/servicios/delivery-truck_516419.png', link: '/transportes/carga' },
-      { id: 11, title: 'Transporte Especial', imgSrc: '/img/servicios/favourite_2156164.png', link: '/transportes/especial' },
-      { id: 12, title: 'Transporte de Hidrocarburos', imgSrc: '/img/servicios/tank-truck_1850928.png', link: '/transportes/hidrocarburos' },
+      { id: 10, title: 'transporte carga', imgSrc: deliveryTruckImg, link: '/transportes/carga' },
+      { id: 11, title: 'transporte especial', imgSrc: favouriteImg, link: '/transportes/especial' },
+      { id: 12, title: 'transporte hidrocarburos', imgSrc: tankTruckImg, link: '/transportes/hidrocarburos' },
     ]
   },
   portafolio: {

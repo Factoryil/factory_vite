@@ -46,8 +46,8 @@ export default function Contactos() {
 
         {/* Sección para los enlaces a formularios de Google */}
         <div className={styles.googleForms}>
-          <h3>Envianos un mensaje</h3>
-          <ul>
+          <h3>Formularios</h3>
+          <ul className={styles.contenedorUlForm}>
             {googleFormLinks.map((form, index) => (
               <li key={index}>
                 <a href={form.url} target="_blank" rel="noreferrer" className={styles.formLink}>

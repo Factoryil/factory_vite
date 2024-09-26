@@ -33,8 +33,7 @@
     color: #00235a;
     font-size: var(--font-size-xlarge);
     text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold; 
+    font-weight: 600;
   }
   
   .leftSection {
@@ -50,9 +49,8 @@
     text-align: justify;
     font-size: 17px;
     line-height: 1.6;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+    font-weight: 600;
+
   }
   
   /* Responsivo */

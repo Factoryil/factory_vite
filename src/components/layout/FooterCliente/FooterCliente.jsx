@@ -52,10 +52,10 @@ const FooterCliente = () => (
           <h2 className={styles.footerSectionTitle}>Links útiles</h2>
           <div className={styles.footerSectionContent}>
             <ul className={styles.footerLinks}>
-              <li><Link to="/login">Administradores</Link></li>
-              <li><a href="#">Register as Supplier</a></li>
-              <li><a href="#">Register as Supplier</a></li>
-              <li><a href="#">Register as Supplier</a></li> {/* Enlaces repetidos, revisa si necesitas cambiar el texto o URL */}
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfwU__Xr1zjMeo0VtzLy8FByZNZq9YLyFWDS8FkHW52oO6TDQ/viewform?usp=sf_link" target="_blank" rel="noreferrer" >registro de Proveedores</a></li> 
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfRiKBfVoaXI7oi3TLLHFh_f1aaGeYgySAkJu2QP_TNlM6CeQ/viewform?usp=sf_link" target="_blank" rel="noreferrer" >REGISTRO DE VEHICULOS</a></li> 
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSde0vSHcF9fMubLZVavYYbQF50p5fcNGKw_B0jZ7TWiOHP-ZQ/viewform?usp=sf_link" target="_blank" rel="noreferrer" >Cotización de Servicios/Productos</a></li> 
+
             </ul>
           </div>
         </div>

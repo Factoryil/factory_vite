@@ -1,3 +1,11 @@
+import projectManagementImg from '../assets/images/servicios/project-management_2308201.png';
+import energySystemImg from '../assets/images/servicios/energy-system_12539733.png';
+import settingImg from '../assets/images/servicios/setting_10370130.png';
+import systemConfigurationImg from '../assets/images/servicios/system-configuration_11778376.png';
+import environmentImg from '../assets/images/servicios/environment_708499.png';
+import repairImg from '../assets/images/servicios/repair_3627906.png';
+import engineeringImg from '../assets/images/servicios/engineering_2861721.png';
+
 const IngeneriasData = {
   acercaDeNosotros: {
     titulo: "Acerca de nosotros",
@@ -7,13 +15,13 @@ const IngeneriasData = {
   servicios: {
     titulo: "Nuestros servicios de ingeniería",
     servicios: [
-      { id: 3, title: 'Ingeniería Civil', imgSrc: '/img/servicios/project-management_2308201.png', link: '/ingenerias/civil' },
-      { id: 4, title: 'Ingeniería Electrónica', imgSrc: '/img/servicios/energy-system_12539733.png', link: '/ingenerias/electronica' },
-      { id: 5, title: 'Ingeniería Eléctrica', imgSrc: '/img/servicios/setting_10370130.png', link: '/ingenerias/electrica' },
-      { id: 6, title: 'Ingeniería de Sistemas', imgSrc: '/img/servicios/system-configuration_11778376.png', link: '/ingenerias/sistema' },
-      { id: 7, title: 'Ingeniería Ambiental', imgSrc: '/img/servicios/environment_708499.png', link: '/ingenerias/ambiental' },
-      { id: 8, title: 'Ingeniería Mecánica', imgSrc: '/img/servicios/repair_3627906.png', link: '/ingenerias/mecanica' },
-      { id: 9, title: 'Ingeniería Industrial', imgSrc: '/img/servicios/engineering_2861721.png', link: '/ingenerias/industrial' },
+      { id: 3, title: 'ingenieria civil', imgSrc: projectManagementImg, link: '/ingenerias/civil' },
+      { id: 4, title: 'ingenieria electronica', imgSrc: energySystemImg, link: '/ingenerias/electronica' },
+      { id: 5, title: 'ingenieria electrica', imgSrc: settingImg, link: '/ingenerias/electrica' },
+      { id: 6, title: 'ingenieria de sistema', imgSrc: systemConfigurationImg, link: '/ingenerias/sistema' },
+      { id: 7, title: 'ingenieria ambiental', imgSrc: environmentImg, link: '/ingenerias/ambiental' },
+      { id: 8, title: 'ingenieria mecanica', imgSrc: repairImg, link: '/ingenerias/mecanica' },
+      { id: 9, title: 'ingenieria industrial', imgSrc: engineeringImg, link: '/ingenerias/industrial' },
     ]
   },
   portafolio: {

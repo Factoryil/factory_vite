@@ -1,142 +1,162 @@
 /* Resetear márgenes y rellenos para todos los elementos */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Eliminar diferencias en tipografía y asegurar herencia de la fuente */
-html {
-  font-family: 'Roboto', sans-serif;
-  font-size: 100%; /* Base 16px */
-  line-height: 1.5;
-  -webkit-text-size-adjust: 100%;
-}
-
-/* Asegurar que el tamaño de caja se calcula consistentemente */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-/* Estilos base para body */
-body {
-  margin: 0;
-  padding: 0;
-  background-color: var(--color-background);
-  color: var(--color-text);
-}
-
-/* Estilos básicos para encabezados */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: inherit;
-  line-height: 1.2;
-  text-wrap: balance;
-}
-
-/* Ajustes de envoltura de texto para párrafos */
-p {
-  text-wrap: pretty;
-  margin-bottom: var(--spacing-base);
-}
-
-/* Ajustes para listas */
-ul, ol {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-/* Ajustes de enlaces sin estilo por defecto */
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-/* Estilos para imágenes, videos y SVGs para mantener proporciones */
-img, video, svg {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-/* Estilos para tablas */
-table {
-  border-collapse: collapse;
-  width: 100%;
-}
-
-/* Estilos para botones */
-button {
-  cursor: pointer;
-  border: none;
-  background: none;
-  font: inherit;
-}
-
-/* Estilos base para campos de formulario */
-input, button, textarea, select {
-  font: inherit;
-  border: none;
-  outline: none;
-  padding: 0;
-}
-
-/* Configuración para usuarios con preferencias de reducción de movimiento */
-@media (prefers-reduced-motion: reduce) {
-  * {
-      animation: none;
-      transition: none;
-      scroll-behavior: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-}
+  
+  /* Eliminar diferencias en tipografía y asegurar herencia de la fuente */
+  html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%; /* Base 16px */
+    line-height: 1.5;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  /* Asegurar que el tamaño de caja se calcula consistentemente */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Estilos base para body */
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-background);
+    color: var(--color-text);
+  }
+  
+  /* Estilos básicos para encabezados */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: inherit;
+    line-height: 1.2;
+    text-wrap: balance;
+  }
+  
+  /* Ajustes de envoltura de texto para párrafos */
+  p {
+    text-wrap: pretty;
+    margin-bottom: var(--spacing-base);
+  }
+  
+  /* Ajustes para listas */
+  ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Ajustes de enlaces sin estilo por defecto */
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  /* Estilos para imágenes, videos y SVGs para mantener proporciones */
+  img, video, svg {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos para tablas */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Estilos para botones */
+  button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font: inherit;
+  }
+  
+  /* Estilos base para campos de formulario */
+  input, button, textarea, select {
+    font: inherit;
+    border: none;
+    outline: none;
+    padding: 0;
+  }
+  
+  /* Configuración para usuarios con preferencias de reducción de movimiento */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+        animation: none;
+        transition: none;
+        scroll-behavior: auto;
+    }
+  }
+  
 
-/* Definición de variables globales */
-:root {
-  /* Colores */
-  --color-background: #ffffff;
-  --color-primary: #f49d15;
-  --color-secondary: #00235A;
-  --color-text: #212529;
+/* Definir fuente normal */
+@font-face {
+    font-family: 'Roboto';
+    src: url('../../assets/fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  /* Definir fuente en negrita */
+  @font-face {
+    font-family: 'Roboto';
+    src: url('../../assets/fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  /* Definir fuente cursiva */
+  @font-face {
+    font-family: 'Roboto';
+    src: url('../../assets/fonts/Roboto/Roboto-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: italic;
+  }
+  
 
-  /* Tamaños de fuente */
-  --font-size-xlarge: 50px;
-  --font-size-small: 15px;
-  --font-size-base: 17px;
-  --font-size-large: 45px;
-  --font-size-base-x: 20px;
+  /* Definición de variables globales */
+  :root {
+    /* Colores */
+    --color-background: #ffffff;
+    --color-primary: #f49d15;
+    --color-secondary: #00235A;
+    --color-text: #212529;
+  
+    /* Tamaños de fuente */
+    --font-size-xlarge: 50px;
+    --font-size-small: 15px;
+    --font-size-base: 17px;
+    --font-size-large: 45px;
+    --font-size-base-x: 20px;
+  
+    /* Alturas y anchos */
+    --height-header: 75px;
+    --width-sidebar: 250px;
+    --max-width-container: 1200px;
+  
+    /* Espaciado */
+    --spacing-small: 0.5rem; /* 8px */
+    --spacing-base: 1rem; /* 16px */
+    --spacing-large: 2rem; /* 32px */
+  
+    /* Bordes */
+    --border-radius: 4px;
+    --border-width: 1px;
+    --border-color: #dee2e6;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
 
-  /* Alturas y anchos */
-  --height-header: 75px;
-  --width-sidebar: 250px;
-  --max-width-container: 1200px;
-
-  /* Espaciado */
-  --spacing-small: 0.5rem; /* 8px */
-  --spacing-base: 1rem; /* 16px */
-  --spacing-large: 2rem; /* 32px */
-
-  /* Bordes */
-  --border-radius: 4px;
-  --border-width: 1px;
-  --border-color: #dee2e6;
-}
-
-/* Tipografías Roboto */
-.roboto-thin {
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
-}
-
-.roboto-light {
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-}
-
-/* Continúan las demás variaciones de Roboto */
-
-/* Clases utilitarias */
-.no-scroll {
-  overflow: hidden;
-}
+  /* Continúan las demás variaciones de Roboto */
+  
+  /* Clases utilitarias */
+  .no-scroll {
+    overflow: hidden;
+  }
