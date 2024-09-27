@@ -25,8 +25,8 @@ const IngenieriaElectricaData = {
     ],
   },
   portafolio: {
-    title: "Descubre Nuestro Portafolio de Ingeniería Eléctrica",
-    description: "Explora nuestro portafolio de proyectos en Ingeniería Eléctrica, donde destacamos una selección de trabajos que reflejan nuestra experiencia en el diseño, instalación y mantenimiento de sistemas eléctricos de alta calidad.",
+    title: "Portafolio",
+    description: "Explora nuestro portafolio de Ingeniería Eléctrica",
     pdfUrl: 'https://drive.google.com/file/d/11-Zh4gAGGUTi8tmiwF-8e0P_9tpD_AEg/view?usp=sharing'
   },
 };

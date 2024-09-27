@@ -6,7 +6,7 @@
     },
     portafolio: {
       title: "portafolio",
-      description: "este es nuestro portafolio general",
+      description: "Explora nuestro portafolio general",
       pdfUrl: 'https://drive.google.com/file/d/11-Zh4gAGGUTi8tmiwF-8e0P_9tpD_AEg/view?usp=sharing'
     },
     titleSections: "Nuestra Misión, Visión y Valores",

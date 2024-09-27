@@ -12,29 +12,9 @@ import favouriteImg from '../assets/images/servicios/favourite_2156164.png';
 import tankTruckImg from '../assets/images/servicios/tank-truck_1850928.png';
 import bgnum1 from '../assets/images/carrusel/inicio/hero-06.jpg';
 import bgnum2 from '../assets/images/carrusel/inicio/slider-1.jpg';
+import bgnum3 from '../assets/images/carrusel/inicio/carro.jpeg';
 
 const InicioData = {
-  slidesData: [
-    {
-      backgroundImage: bgnum1,
-      title: 'SOMOS FACTORY',
-      subtitle: 'INTEGRATED LOGISTICS',
-      text: 'INGENIERÍA CIVIL, ELECTRÓNICA, ELÉCTRICA, SISTEMAS, MECÁNICA, AMBIENTAL E INDUSTRIAL. LOGÍSTICA “TRANSPORTE ESPECIAL DE PASAJEROS, TRANSPORTE TERRESTRE DE CARGA: SECA, LÍQUIDOS, SÓLIDOS, CONDENSADAS Y PRODUCTOS DERIVADOS DEL PETRÓLEO”, ALQUILER DE VEHÍCULOS Y MAQUINARIA PESADA, COMERCIALIZADOR DE BIENES Y SERVICIOS ONLINE.',
-      links: [
-        { to: '/contactos', text: 'CONTÁCTANOS', className: 'color-naranja' }
-      ]
-    },
-    {
-      backgroundImage: bgnum2,
-      title: 'Visión Innovadora',
-      subtitle: 'VANGUARDISTA DEL MERCADO',
-      text: 'PRESTANDO SOLUCIONES INTEGRALES QUE POTENCIAN LA ECONOMÍA DE SU EMPRESA, OFRECIENDO ESTRATEGIAS PERSONALIZADAS QUE SE ADAPTAN A SUS NECESIDADES ESPECÍFICAS. NUESTRA MISIÓN ES IMPULSAR SU CRECIMIENTO MEDIANTE INNOVACIONES CONSTANTES Y UNA ATENCIÓN EXCEPCIONAL AL CLIENTE.',
-      links: [
-        { to: '/quienes-somos', text: 'CONOCE MÁS', className: 'color-naranja' },
-        { to: '/contactos', text: 'ESCRÍBENOS', className: 'color-azul' }
-      ]
-    }
-  ],
   acercaDeNosotros: {
     titulo: "Acerca de nosotros",
     subtitulo: "FACTORY INTEGRATED LOGISTICS SAS",
@@ -42,7 +22,7 @@ const InicioData = {
   },
   portafolio: {
     title: "portafolio",
-    description: "este es nuestro portafolio general",
+    description: "Explora nuestro portafolio general",
     pdfUrl: 'https://drive.google.com/file/d/11-Zh4gAGGUTi8tmiwF-8e0P_9tpD_AEg/view?usp=sharing'
   },
   testimonio: {
@@ -68,7 +48,7 @@ const InicioData = {
   },
   slidesData: [
     {
-      backgroundImage: '/img/carrusel/inicio/hero-06.jpg',
+      backgroundImage: bgnum1,
       title: 'SOMOS FACTORY',
       subtitle: 'INTEGRATED LOGISTICS',
       text: 'INGENIERÍA CIVIL, ELECTRÓNICA, ELÉCTRICA, SISTEMAS, MECÁNICA, AMBIENTAL E INDUSTRIAL. LOGÍSTICA “TRANSPORTE ESPECIAL DE PASAJEROS, TRANSPORTE TERRESTRE DE CARGA: SECA, LÍQUIDOS, SÓLIDOS, CONDENSADAS Y PRODUCTOS DERIVADOS DEL PETRÓLEO”, ALQUILER DE VEHÍCULOS Y MAQUINARIA PESADA, COMERCIALIZADOR DE BIENES Y SERVICIOS ONLINE.',
@@ -77,7 +57,7 @@ const InicioData = {
       ]
     },
     {
-      backgroundImage: '/img/carrusel/inicio/slider-1.jpg',
+      backgroundImage: bgnum2,
       title: 'Visión Innovadora',
       subtitle: 'VANGUARDISTA DEL MERCADO',
       text: 'PRESTANDO SOLUCIONES INTEGRALES QUE POTENCIAN LA ECONOMÍA DE SU EMPRESA, OFRECIENDO ESTRATEGIAS PERSONALIZADAS QUE SE ADAPTAN A SUS NECESIDADES ESPECÍFICAS. NUESTRA MISIÓN ES IMPULSAR SU CRECIMIENTO MEDIANTE INNOVACIONES CONSTANTES Y UNA ATENCIÓN EXCEPCIONAL AL CLIENTE.',
@@ -85,7 +65,17 @@ const InicioData = {
         { to: '/quienes-somos', text: 'CONOCE MÁS', className: 'color-naranja' },
         { to: '/contactos', text: 'ESCRÍBENOS', className: 'color-azul' }
       ]
-    }
+    },
+    {
+      backgroundImage: bgnum3,
+      title: 'Alquiler de Autos',
+      subtitle: 'MOVILIDAD A SU ALCANCE',
+      text: 'En Factory Integrated Logistics SAS, ofrecemos un servicio de alquiler de vehículos adaptados a cualquier necesidad. Contamos con una flota diversa que garantiza calidad y comodidad, ideal para viajes de negocio o ocasionales. Descubra cómo nuestros vehículos pueden facilitar su movilidad.',
+      links: [
+        { to: '/transportes', text: 'CONOCE MÁS', className: 'color-naranja' },
+        { to: '/contactos', text: 'CONTÁCTANOS', className: 'color-azul' }
+      ]
+    },
   ]
 };
 

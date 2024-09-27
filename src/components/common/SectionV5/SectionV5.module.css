@@ -21,21 +21,23 @@
 }
 
 .itemTestimonioFactoryContenido h4 {
-    font-size: 32px;
-    color: #fc8414;
+    font-size: 37px;
+    color: #00235a;
+    /* color: #fc8414; */
     text-transform: uppercase;
     margin-bottom: 15px;
     margin-top: 30px;
     text-align: center;
+    font-weight: 600;
 }
 
 .itemTestimonioFactoryContenido p {
   font-size: var(--font-size-base-x);
-  line-height: 34px;
   margin-bottom: 30px;
+  line-height: 30px;
   text-align: justify;
-  font-weight: 450;
-  color: #00235a;
+  font-weight: 600;
+  color: #3c4043;
 
 }
 

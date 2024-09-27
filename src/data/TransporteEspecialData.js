@@ -25,9 +25,9 @@ const TransporteEspecialData = {
     ],
   },
   portafolio: {
-    title: "Portafolio de Alquiler de Vehículos Especiales",
-    description: "Este es nuestro portafolio de vehículos especiales disponibles para alquiler, donde podrás explorar nuestras opciones y tarifas.",
-    pdfUrl: 'https://drive.google.com/file/d/11-Zh4gAGGUTi8tmiwF-8e0P_9tpD_AEg/view?usp=sharing'
+    title: "Portafolio",
+    description: "Explora nuestro portafolio de vehículos especial",
+     pdfUrl: 'https://drive.google.com/file/d/11-Zh4gAGGUTi8tmiwF-8e0P_9tpD_AEg/view?usp=sharing'
   },
 };
 

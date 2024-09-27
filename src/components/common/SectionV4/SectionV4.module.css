@@ -48,7 +48,8 @@
 }
 
 .contenedorValores div h4 {
-  color: #faa010;
+  /* color: #faa010; */
+  color: #00235a;
   font-size: 23px;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -58,11 +59,10 @@
 
 .contenedorValores div p {
   text-align: justify;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 1.5;
-  /* color: #666; */
-  color: #00235a;
+  font-size: 17px;
+  line-height: 1.55;
+  font-weight: 600;
+  color: #3c4043;
 
 }
 

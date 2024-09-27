@@ -12,12 +12,9 @@
 .contactInfo {
     display: flex;
     flex-direction: column;
+
 }
 
-.mapContainer img {
-    width: 100%;
-    height: 100%;
-}
 
 .contenedorDatos {
     display: flex;
@@ -38,15 +35,23 @@
 
 .contenedorTituloDatos > strong {
     color: #00235a;
-    font-size: 20px;
+    font-size: 22px;
+}
+
+.textdatoscolo {
+  font-weight: 600;
+  color: #3c4043;
+  font-size: 17px;
 }
 
 .contactInfo h3, 
 .socialMedia h3, 
-.contactForm h3 {
-    font-size: 30px;
+.contactForm h3,
+.googleForms h3  {
+    font-size: 34px;
     color: #00235a;
     margin-bottom: 10px;
+    font-weight: 600;
 }
 
 .contactInfo ul {
@@ -78,11 +83,12 @@
 .socialIcons {
     display: flex;
     gap: 20px;
+    margin-top: 20px;
 }
 
 .socialIcons a img {
-    width: 40px;
-    height: 40px;
+    width: 47px;
+    height: 47px;
 }
 
 .tabs {
@@ -111,7 +117,7 @@
   
   .activeTab {
     background-color: #007bff; 
-    color: white; 
+    color: white;
   }
   
 
@@ -191,7 +197,7 @@
     margin-bottom: 20px; 
     color: #00235a;
     text-transform: capitalize;
-    font-size: 28px;
+    font-weight: 600;
 
   }
   
@@ -224,9 +230,6 @@
     padding: 10px 15px;
   }
   
-  /* .formLink:hover {
-    color: #67bcf5; 
-  } */
   
 @media (min-width: 1076px) {
     .contactModule {

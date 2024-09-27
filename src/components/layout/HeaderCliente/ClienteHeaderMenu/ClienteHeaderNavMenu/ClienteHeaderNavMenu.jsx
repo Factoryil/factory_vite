@@ -111,7 +111,6 @@ const ClienteHeaderNavMenu = ({
         </Dropdown>
       </Dropdown>
 
-      {/* <NavLink href="/blog" onLinkClick={handleLinkClick}>blog</NavLink> */}
       <NavLink href="/contactos" onLinkClick={handleLinkClick}>contactos</NavLink>
     </nav>
   );

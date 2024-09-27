@@ -33,8 +33,8 @@ const IngeneriasSistemaData = {
     ],
   },
   portafolio: {
-    title: "Portafolio de Ingeniería de Sistemas",
-    description: "Explora nuestro portafolio de proyectos en Ingeniería de Sistemas, donde mostramos una selección de trabajos que destacan nuestra experiencia en desarrollo e implementación de soluciones tecnológicas.",
+    title: "Portafolio",
+    description: "Explora nuestro portafolio de Ingeniería de Sistemas",
     pdfUrl: 'https://drive.google.com/file/d/11-Zh4gAGGUTi8tmiwF-8e0P_9tpD_AEg/view?usp=sharing'
   },
 };

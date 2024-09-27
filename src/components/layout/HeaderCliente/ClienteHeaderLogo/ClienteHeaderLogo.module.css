@@ -1,17 +1,23 @@
 .contenedorLogoPagina {
     display: flex;
   }
+
+  .contenedorLogoPaginacompleto {
+    height: 100%;
+    display: flex;
+  }
   
-  .contenedorLogoPagina::after {
+  .contenedorLogoPaginacompleto::after {
     content: "";
     width: 0;
     height: 0;
     border-right: 0 solid transparent;
     border-left: var(--height-header) solid transparent;
     border-top: var(--height-header) solid var(--color-primary);
-    background-color: var(--color-background);
+     background-color: var(--color-background);
     margin-top: auto;
-  }
+
+  } 
   
   .img {
     width: 220px;

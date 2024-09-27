@@ -25,8 +25,8 @@ const TransporteHidrocarburosData = {
     ],
   },
   portafolio: {
-    title: "Portafolio de Alquiler de Vehículos para Transporte de Hidrocarburos",
-    description: "Este es nuestro portafolio de vehículos especializados disponibles para el alquiler en el transporte de hidrocarburos, donde podrás explorar nuestras opciones y tarifas.",
+    title: "Portafolio",
+    description: "Explora nuestro portafolio de vehículos de hidrocarburos",
     pdfUrl: 'https://drive.google.com/file/d/11-Zh4gAGGUTi8tmiwF-8e0P_9tpD_AEg/view?usp=sharing'
   },
 };

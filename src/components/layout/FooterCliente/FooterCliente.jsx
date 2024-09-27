@@ -39,9 +39,9 @@ const FooterCliente = () => (
           <h2 className={styles.footerSectionTitle}>Servicios</h2>
           <div className={styles.footerSectionContent}>
             <ul className={styles.footerLinks}>
-              <li><Link to="/ingenerias">Ingenierías</Link></li>
-              <li><Link to="/logistica">Logística</Link></li>
-              <li><Link to="/transportes">Transportes</Link></li>
+              <li><Link to="/ingenerias">INGENIERÍAS</Link></li>
+              <li><Link to="/logistica">LOGÍSTICA</Link></li>
+              <li><Link to="/transportes">TRANSPORTES</Link></li>
             </ul>
           </div>
         </div>
@@ -52,9 +52,9 @@ const FooterCliente = () => (
           <h2 className={styles.footerSectionTitle}>Links útiles</h2>
           <div className={styles.footerSectionContent}>
             <ul className={styles.footerLinks}>
-              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfwU__Xr1zjMeo0VtzLy8FByZNZq9YLyFWDS8FkHW52oO6TDQ/viewform?usp=sf_link" target="_blank" rel="noreferrer" >registro de Proveedores</a></li> 
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfwU__Xr1zjMeo0VtzLy8FByZNZq9YLyFWDS8FkHW52oO6TDQ/viewform?usp=sf_link" target="_blank" rel="noreferrer" >REGISTRO DE PROVEEDORES</a></li> 
               <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSfRiKBfVoaXI7oi3TLLHFh_f1aaGeYgySAkJu2QP_TNlM6CeQ/viewform?usp=sf_link" target="_blank" rel="noreferrer" >REGISTRO DE VEHICULOS</a></li> 
-              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSde0vSHcF9fMubLZVavYYbQF50p5fcNGKw_B0jZ7TWiOHP-ZQ/viewform?usp=sf_link" target="_blank" rel="noreferrer" >Cotización de Servicios/Productos</a></li> 
+              <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSde0vSHcF9fMubLZVavYYbQF50p5fcNGKw_B0jZ7TWiOHP-ZQ/viewform?usp=sf_link" target="_blank" rel="noreferrer" >COTIZACIÓN DE SERVICIOS/PRODUCTOS</a></li> 
 
             </ul>
           </div>

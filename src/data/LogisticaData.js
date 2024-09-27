@@ -26,7 +26,7 @@ const LogisticaData = {
   },
   portafolio: {
     title: "Portafolio",
-    description: "Este es nuestro portafolio de soluciones logísticas, donde podrás explorar nuestros proyectos y servicios desarrollados.",
+    description: "Explora nuestro portafolio de logística",
     pdfUrl: 'https://drive.google.com/file/d/11-Zh4gAGGUTi8tmiwF-8e0P_9tpD_AEg/view?usp=sharing'
   },
 };

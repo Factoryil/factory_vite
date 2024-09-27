@@ -25,8 +25,8 @@ const IngenieriaCivilData = {
     ],
   },
   portafolio: {
-    title: "Explora Nuestro Portafolio",
-    description: "Descubre una muestra de nuestros proyectos en Ingeniería Civil, donde la innovación y la calidad se encuentran.",
+    title: "Portafolio",
+    description: "Explora nuestro portafolio de Ingeniería Civil",
     pdfUrl: 'https://drive.google.com/file/d/11-Zh4gAGGUTi8tmiwF-8e0P_9tpD_AEg/view?usp=sharing'
   },
 };

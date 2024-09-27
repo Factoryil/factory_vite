@@ -14,13 +14,15 @@ const ClienteHeaderLogo = ({ closeMenu }) => {
   };
 
   return (
-    <Link to="/" className={styles.contenedorLogoPagina} onClick={handleClick}>
+    <div className={styles.contenedorLogoPaginacompleto}>
+      <Link to="/" className={styles.contenedorLogoPagina} onClick={handleClick}>
       <img 
         src={menuicon}
         alt="Logo" 
         className={styles.img} 
       />
     </Link>
+    </div>
   );
 };
 

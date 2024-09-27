@@ -25,8 +25,8 @@ const IngenieriaAmbientalData = {
     ],
   },
   portafolio: {
-    title: "Descubre Nuestro Portafolio",
-    description: "Explora nuestra amplia gama de proyectos en Ingeniería Ambiental, donde la innovación y la sostenibilidad se encuentran.",
+    title: "Portafolio",
+    description: "Explora nuestro portafolio de Ingeniería Ambiental",
     pdfUrl: 'https://drive.google.com/file/d/11-Zh4gAGGUTi8tmiwF-8e0P_9tpD_AEg/view?usp=sharing'
   },
 };

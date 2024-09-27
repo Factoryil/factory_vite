@@ -3,8 +3,7 @@ import styles from '../styles/ContactModule.module.css';
 import ContactosData from '../data/ContactosData';
 
 export default function Contactos() {
-  const { contactData, socialLinks, imgaenUbicacion, googleFormLinks } = ContactosData;
-
+  const { contactData, socialLinks, googleMapsLink, googleFormLinks } = ContactosData;
 
   return (
     <>
@@ -21,15 +20,24 @@ export default function Contactos() {
                   </div>
                   <ul>
                     {data.details.map((detail, idx) => (
-                      <li key={idx}>{detail}</li>
+                      <li key={idx} className={styles.textdatoscolo}>{detail}</li>
                     ))}
                   </ul>
                 </li>
               ))}
             </ul>
           </div>
+
           <div className={styles.mapContainer}>
-            <img src={imgaenUbicacion} alt="Map" style={{ width: '100%', height: '300px' }} />
+            <iframe
+              src={googleMapsLink}
+              width="100%"
+              height="400px"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
 
@@ -44,7 +52,6 @@ export default function Contactos() {
           </div>
         </div>
 
-        {/* Sección para los enlaces a formularios de Google */}
         <div className={styles.googleForms}>
           <h3>Formularios</h3>
           <ul className={styles.contenedorUlForm}>

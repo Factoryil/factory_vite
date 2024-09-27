@@ -25,8 +25,8 @@ const IngeneriasElectronicaData = {
     ],
   },
   portafolio: {
-    title: "Portafolio de Ingeniería Electrónica",
-    description: "Descubre nuestro portafolio de proyectos en Ingeniería Electrónica, donde mostramos una selección de trabajos que destacan nuestra experiencia en el diseño, desarrollo e integración de sistemas electrónicos avanzados.",
+    title: "Portafolio",
+    description: "Explora nuestro portafolio de Ingeniería Electrónica",
     pdfUrl: 'https://drive.google.com/file/d/11-Zh4gAGGUTi8tmiwF-8e0P_9tpD_AEg/view?usp=sharing'
   },
 };

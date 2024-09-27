@@ -26,7 +26,7 @@ const IngeneriasData = {
   },
   portafolio: {
     title: "Portafolio",
-    description: "Este es nuestro portafolio de ingenierías, donde podrás explorar nuestros proyectos y soluciones desarrolladas.",
+    description: "Explora nuestro portafolio de Ingenierías",
     pdfUrl: 'https://drive.google.com/file/d/11-Zh4gAGGUTi8tmiwF-8e0P_9tpD_AEg/view?usp=sharing'
   },
 };

@@ -35,15 +35,15 @@
     font-size: var(--font-size-large);
     font-weight: 550;
     margin-top: 15px;
-    color: #00235a;
     max-width: 800px;
+    color: #00235a;
+
   }
   
   .contenedorBloqueLocalizacion {
     display: flex;
     align-items: center;
     margin-top: 40px;
-
   }
   
   .contenedorBloqueLocalizacion > div {
@@ -57,6 +57,7 @@
     font-size: 1.5rem;
     text-transform: uppercase;
     margin-bottom: 11px;
+    color: #00235a;
   }
   
   .contenedorBloqueLocalizacion > div > p {
@@ -64,6 +65,7 @@
     width: 80%;
     line-height: 1.6;
     font-weight: 550;
+    color: #3c4043;
   }
   
   /* Responsivo */

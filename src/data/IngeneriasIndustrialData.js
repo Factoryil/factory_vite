@@ -33,8 +33,8 @@ const IngeneriasIndustrialData = {
     ],
   },
   portafolio: {
-    title: "Portafolio de Ingeniería Industrial",
-    description: "Explora nuestro portafolio de proyectos en Ingeniería Industrial, donde destacamos una selección de trabajos que reflejan nuestra experiencia en la optimización de procesos y gestión de proyectos.",
+    title: "Portafolio",
+    description: "Explora nuestro portafolio de Ingeniería Industrial",
     pdfUrl: 'https://drive.google.com/file/d/11-Zh4gAGGUTi8tmiwF-8e0P_9tpD_AEg/view?usp=sharing'
   },
 };

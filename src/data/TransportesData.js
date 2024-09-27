@@ -18,8 +18,8 @@ const TransportesData = {
     ]
   },
   portafolio: {
-    title: "Portafolio de Vehículos",
-    description: "Explore nuestra flota de vehículos disponibles para alquiler.",
+    title: "Portafolio",
+    description: "Explora nuestro portafolio de alquiler de vehículos",
     pdfUrl: 'https://drive.google.com/file/d/11-Zh4gAGGUTi8tmiwF-8e0P_9tpD_AEg/view?usp=sharing'
   },
 };

@@ -85,11 +85,13 @@
   
   .servicioLink span {
     margin-top: 20px;
-    color: #00235a;
+    /* color: #00235a; */
+    color: #3c4043;
+
     font-size: 17px;
     text-align: center;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
   }
   
   .servicioLink:hover span {
@@ -113,7 +115,7 @@
   @media (max-width: 600px) {
 
     .contenedorServicios {
-      padding: 10px 15px;
+      padding: 10px 10px;
     }
 
     .servicioItem {

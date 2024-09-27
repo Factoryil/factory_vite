@@ -25,8 +25,8 @@ const TransporteCargaData = {
     ],
   },
   portafolio: {
-    title: "Portafolio de Alquiler de Vehículos para Carga",
-    description: "Este es nuestro portafolio de vehículos disponibles para alquiler, donde podrás explorar nuestras opciones y tarifas.",
+    title: "Portafolio",
+    description: "Explora nuestro portafolio de vehículos de carga",
     pdfUrl: 'https://drive.google.com/file/d/11-Zh4gAGGUTi8tmiwF-8e0P_9tpD_AEg/view?usp=sharing'
   },
 };
