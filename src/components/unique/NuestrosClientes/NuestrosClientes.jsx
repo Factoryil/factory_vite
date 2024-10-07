@@ -8,6 +8,9 @@ import logoEicon from '../../../assets/images/nuestrosClientes/eicon.png';
 import logoElecnor from '../../../assets/images/nuestrosClientes/ELECNOR.png';
 import logoSoltec from '../../../assets/images/nuestrosClientes/SOLTEC.png';
 import logoVentus from '../../../assets/images/nuestrosClientes/VENTUS.jpg';
+import logoINMEL from '../../../assets/images/nuestrosClientes/INMEL.png';
+import logoAQUALIA from '../../../assets/images/nuestrosClientes/AQUALIA.png';
+import logoCINCO from '../../../assets/images/nuestrosClientes/cinco.png';
 
 const NuestrosClientes = () => {
   return (
@@ -21,9 +24,14 @@ const NuestrosClientes = () => {
         <img src={logoElecnor} alt="ELECNOR" className={styles.logosClientes} />
         <img src={logoSoltec} alt="SOLTEC" className={styles.logosClientes} />
         <img src={logoVentus} alt="VENTUS" className={styles.logosClientes} />
+        <img src={logoINMEL} alt="INMEL" className={styles.logosClientes} />
+        <img src={logoAQUALIA} alt="AQUALIA" className={styles.logosClientes} />
+        <img src={logoCINCO} alt="CINCO" className={styles.logosClientes} />
+       
       </div>
     </div>
   );
 };
 
 export default NuestrosClientes;
+
