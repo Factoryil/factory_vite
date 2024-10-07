@@ -13,6 +13,7 @@ import tankTruckImg from '../assets/images/servicios/tank-truck_1850928.png';
 import bgnum1 from '../assets/images/carrusel/inicio/hero-06.jpg';
 import bgnum2 from '../assets/images/carrusel/inicio/slider-1.jpg';
 import bgnum3 from '../assets/images/carrusel/inicio/carro.jpeg';
+import pdfmonolio from '../assets/PDF/3.1.1. Monofolio.pdf'
 
 const InicioData = {
   acercaDeNosotros: {
@@ -23,7 +24,7 @@ const InicioData = {
   portafolio: {
     title: "portafolio",
     description: "Explora nuestro portafolio general",
-    pdfUrl: 'https://drive.google.com/file/d/11-Zh4gAGGUTi8tmiwF-8e0P_9tpD_AEg/view?usp=sharing'
+    pdfUrl: pdfmonolio
   },
   testimonio: {
     titulo: "Julián Salazar Valencia",

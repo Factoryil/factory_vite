@@ -19,11 +19,6 @@ export default function QuienesSomos() {
       />
       <NuestrosClientes />
 
-      <Portafolio 
-        title={QuienesSomosData.portafolio.title}
-        description={QuienesSomosData.portafolio.description}
-        pdfUrl={QuienesSomosData.portafolio.pdfUrl}
-      />
     </>
   );
 }

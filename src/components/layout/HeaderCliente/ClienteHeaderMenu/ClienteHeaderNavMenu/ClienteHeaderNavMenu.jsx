@@ -68,24 +68,24 @@ const ClienteHeaderNavMenu = ({
 
   return (
     <nav className={`nav-menu ${isOpenMenu ? 'toggle' : ''} ${disableHover ? 'disable-hover' : ''}`}>
-      <NavLink href="/" onLinkClick={handleLinkClick}>inicio</NavLink>
+      <NavLink href="/" onLinkClick={handleLinkClick}>INICIO</NavLink>
 
       <Dropdown 
-        toggleLabel="quienes somos" 
+        toggleLabel="QUIENES SOMOS" 
         isOpen={activeDropdown.main === "quienes somos"}
         onToggle={() => onMainDropdownToggle("quienes somos")}
       >
-        <NavLink href="/quienes-somos" onLinkClick={handleLinkClick}>quienes somos</NavLink>
-        <NavLink href="/certificados" onLinkClick={handleLinkClick}>certificados</NavLink>
+        <NavLink href="/quienes-somos" onLinkClick={handleLinkClick}>QUIENES SOMOS</NavLink>
+        <NavLink href="/certificados" onLinkClick={handleLinkClick}>CERTIFICADOS</NavLink>
       </Dropdown>
 
       <Dropdown 
-        toggleLabel="ingenierias" 
+        toggleLabel="INGENERIAS" 
         isOpen={activeDropdown.main === "ingenierias"}
         onToggle={() => onMainDropdownToggle("ingenierias")}
       >
-        <NavLink href="/ingenerias" onLinkClick={handleLinkClick}>ingenierias</NavLink>
-        {["civil", "electronica", "electrica", "sistema", "ambiental", "mecanica", "industrial"].map((tipo) => (
+        <NavLink href="/ingenerias" onLinkClick={handleLinkClick}>INGENERIAS</NavLink>
+        {["CIVIL", "ELECTRONICA", "ELECTRICA", "SISTEMA", "AMBIENTAL", "MECANICA", "INDUSTRIAL"].map((tipo) => (
           <NavLink key={tipo} href={`/ingenerias/${tipo}`} onLinkClick={handleLinkClick}>
             ingenieria {tipo}
           </NavLink>
@@ -93,13 +93,13 @@ const ClienteHeaderNavMenu = ({
       </Dropdown>
 
       <Dropdown 
-        toggleLabel="logistica" 
+        toggleLabel="LOGISTICA" 
         isOpen={activeDropdown.main === "logistica"}
         onToggle={() => onMainDropdownToggle("logistica")}
       >
-        <NavLink href="/logistica" onLinkClick={handleLinkClick}>logistica</NavLink>
+        <NavLink href="/logistica" onLinkClick={handleLinkClick}>LOGISTICA</NavLink>
         <Dropdown 
-          toggleLabel="transportes" 
+          toggleLabel="TRANSPORTES" 
           isOpen={activeDropdown.sub === "transportes"}
           onToggle={() => onSubDropdownToggle("transportes")}
         >
@@ -111,7 +111,7 @@ const ClienteHeaderNavMenu = ({
         </Dropdown>
       </Dropdown>
 
-      <NavLink href="/contactos" onLinkClick={handleLinkClick}>contactos</NavLink>
+      <NavLink href="/contactos" onLinkClick={handleLinkClick}>CONTACTOS</NavLink>
     </nav>
   );
 };
